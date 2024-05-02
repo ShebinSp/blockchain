@@ -1,7 +1,7 @@
 package blockchain
 
 // create the method that adds a new block to a blockchain
-func (blockchain *Blockchain) AddBlock(data string) {
+func (blockchain *Blockchain) AddBlock(data Data) {
 	PreviousBlock := blockchain.Blocks[len(blockchain.Blocks)-1] // the previous block is needed,
 	
 	// create a new block containing the data and the hash of the previous block
