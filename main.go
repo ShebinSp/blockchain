@@ -8,19 +8,6 @@ import (
 
 func main() {
 
-	// s := &http.Server{
-	// 	Addr : ":1010",
-	// //	Handler: myHandler,
-	// ReadTimeout: 10 * time.Second,
-	// }
-	// log.Fatal(s.ListenAndServe())
-
-	// handler := func(w http.ResponseWriter, r *http.Request) {
-	// 	if r.Method == http.MethodPost {
-
-	// 	}
-	// }
-
 	data1 := blockchain.Data{
 		Amount:   11.11,
 		Sender:   "2N3oefVeg6stiTb5Kh3ozCSkaqmx91FDbsm",
