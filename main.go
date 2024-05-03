@@ -38,7 +38,9 @@ func main() {
 		fmt.Printf("Hash of the block : %s\n", block.CurrentBlockHash)           // print the hash of the block
 		fmt.Printf("Hash of the previous Block : %s\n", block.PreviousBlockHash) // print the hash of the previous block
 		fmt.Println("Nounce of the block: ", block.Nounce)
+		fmt.Println("")
 	} // our blockchain will be printed
-
+	fmt.Println("Integrity of Blockchain: ",blockchain.Blockchain.IntegrityCheck(*newblockchain))
+	
 	//fmt.Println("Length: ",blockchain.LengthOf())
 }
